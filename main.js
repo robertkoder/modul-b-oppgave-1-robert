@@ -30,17 +30,17 @@ Try to use both the let and const keywords
 
 //your code here
 
-const firstName = "Robert"
-let age = 30
-let sitting = true
+const firstName = "Robert";
+let age = 30;
+let sitting = true;
 let randomInfo = [
     {
         hasCat: false,
         hasDebt: true,
         astring: "a string",
     }
-]
-let inDebtYears = 20
+];
+let inDebtYears = 20;
 
 /****************************************************************************** 
 ASSIGNMENT 3
@@ -51,8 +51,8 @@ as well as a few of the shorthand operators (++, --, +=, -=)
 
 //your code here
 
-firstName + " " + "is in debt until he is" + " " + (age + inDebtYears) + " " + "years old."
-firstName + "is happy it is not" + " " + (inDebtYears *= 2) + "."
+firstName + " " + "is in debt until he is" + " " + (age + inDebtYears) + " " + "years old.";
+firstName + "is happy it is not" + " " + (inDebtYears *= 2) + ".";
 
 
 /****************************************************************************** 
@@ -81,6 +81,14 @@ let goToPage = "";
 
 //your code here
 
+if ((userName && userName != "") && userAge >= 18 && userIsBlocked === false) {
+    userIsLoggedIn = true;
+    goToPage = "/home";
+    console.log("Welcome.");
+} else {
+    console.log("There was an error.");
+}
+
 /******************************************************************************
 ASSIGNMENT 5
 
@@ -97,3 +105,6 @@ to see that your conditional is working.
 const userMale = false;
 
 //your code here
+
+const userTitle = userMale ? "Mr." : "Mrs."
+console.log(userTitle)
