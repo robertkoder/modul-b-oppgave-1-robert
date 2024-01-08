@@ -30,7 +30,7 @@ Try to use both the let and const keywords
 
 //your code here
 
-const name = "Robert"
+const firstName = "Robert"
 let age = 30
 let sitting = true
 let randomInfo = [
@@ -50,6 +50,10 @@ as well as a few of the shorthand operators (++, --, +=, -=)
 ******************************************************************************/
 
 //your code here
+
+firstName + " " + "is in debt until he is" + " " + (age + inDebtYears) + " " + "years old."
+firstName + "is happy it is not" + " " + (inDebtYears *= 2) + "."
+
 
 /****************************************************************************** 
 ASSIGNMENT 4
