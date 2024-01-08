@@ -106,5 +106,5 @@ const userMale = false;
 
 //your code here
 
-const userTitle = userMale ? "Mr." : "Mrs."
-console.log(userTitle)
+const userTitle = userMale ? "Mr." : "Mrs.";
+console.log(userTitle);
