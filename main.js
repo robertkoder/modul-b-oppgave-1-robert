@@ -30,6 +30,18 @@ Try to use both the let and const keywords
 
 //your code here
 
+const name = "Robert"
+let age = 30
+let sitting = true
+let randomInfo = [
+    {
+        hasCat: false,
+        hasDebt: true,
+        astring: "a string",
+    }
+]
+let inDebtYears = 20
+
 /****************************************************************************** 
 ASSIGNMENT 3
 
